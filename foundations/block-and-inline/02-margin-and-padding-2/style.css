@@ -1,12 +1,14 @@
 body {
   background: gray;
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 .card {
   width: 400px;
   background: white;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title,
@@ -15,6 +17,24 @@ body {
   background: dodgerblue;
 }
 
+.title{
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.content{
+  padding: 16px 8px;
+  margin-bottom: 8px;
+}
+
+.button-container{
+  padding: 8px;
+  text-align: center;
+}
+
 button {
   background: white;
+  display: block;
+  padding: 8px 24px;
+  margin: 0 auto;
 }
